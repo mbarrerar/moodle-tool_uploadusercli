@@ -1114,7 +1114,7 @@ class tool_uploadusercli_user {
 
                 // Add to group.
                 if (isset($this->rawdata['group' . $i])) {
-                    $groupname = isset($this->rawdata['group' . $i]);
+                    $groupname = $this->rawdata['group' . $i];
                 }
 
                 if (!empty($groupname)) {
